@@ -1,4 +1,7 @@
 package com.pattern.factory;
 
-public class Boy {
+public interface Boy {
+
+    public void drawMan();
+
 }

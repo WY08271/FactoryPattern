@@ -1,4 +1,7 @@
 package com.pattern.factory;
 
-public class Girl {
+public interface Girl {
+
+    public void drawWomen();
+
 }

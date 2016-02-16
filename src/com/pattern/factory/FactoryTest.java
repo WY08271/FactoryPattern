@@ -7,23 +7,23 @@ public class FactoryTest {
 //		HairInterface left = new LeftHair();
 //		left.draw();
 
-        HairFactory factory = new HairFactory();
+//        HairFactory factory = new HairFactory();
 //		HairInterface right =  factory.getHair("right");
 //		right.draw();
 //
 //		HairInterface left = factory.getHairByClass("com.pattern.factory.LeftHair");
 //		left.draw();
 
-		HairInterface hair = factory.getHairByClassKey("in");
-		hair.draw();
+//		HairInterface hair = factory.getHairByClassKey("in");
+//		hair.draw();
 
-//		PersonFactory facoty = new MCFctory();
-//		Girl girl = facoty.getGirl();
+//		PersonFactory factory = new MCFactory();
+//		Girl girl = factory.getGirl();
 //		girl.drawWomen();
 
-//        PersonFactory facoty = new HNFactory();
-//        Boy boy =  facoty.getBoy();
-//        boy.drawMan();
+        PersonFactory factory = new HNFactory();
+        Boy boy =  factory.getBoy();
+        boy.drawMan();
     }
 
 }
